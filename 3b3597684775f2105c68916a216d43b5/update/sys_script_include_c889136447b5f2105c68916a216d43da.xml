@@ -16,6 +16,17 @@ CustomerEnhancement.prototype = {
         gs.info("{0}: The customer enhancements are finished!");
     },
 
+	coolNewThing: function() {
+		gs.info("{0} this is a cool new thing for the Jan 2026 release", this.type);
+	},
+
+	createFeatureRequest: function(shortDescription) {
+		var featureRequestGr = new GlideRecord('x_237156_source_0_new_feature_request');
+		//TODO populate and insert New Feature Request record
+		featureRequestGr.setValue('short_description', shortDescription);
+		featureRequestGr.insert();
+	},
+
     type: 'CustomerEnhancement'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
