@@ -16,19 +16,30 @@ CustomerEnhancement.prototype = {
         gs.info("{0}: The customer enhancements are finished!");
     },
 
+	coolNewThing: function() {
+		gs.info("{0} this is a cool new thing for the Jan 2026 release", this.type);
+	},
+
+	createFeatureRequest: function(shortDescription) {
+		var featureRequestGr = new GlideRecord('x_237156_source_0_new_feature_request');
+		//INC007854: trim shortDescription before populating
+		featureRequestGr.setValue('short_description', shortDescription.trim());
+		featureRequestGr.insert();
+	},
+
     type: 'CustomerEnhancement'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>aaron.brainard</sys_created_by>
         <sys_created_on>2025-12-10 21:58:47</sys_created_on>
         <sys_id>c889136447b5f2105c68916a216d43da</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CustomerEnhancement</sys_name>
         <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
         <sys_update_name>sys_script_include_c889136447b5f2105c68916a216d43da</sys_update_name>
         <sys_updated_by>aaron.brainard</sys_updated_by>
-        <sys_updated_on>2025-12-17 21:14:38</sys_updated_on>
+        <sys_updated_on>2025-12-19 16:21:20</sys_updated_on>
     </sys_script_include>
 </record_update>

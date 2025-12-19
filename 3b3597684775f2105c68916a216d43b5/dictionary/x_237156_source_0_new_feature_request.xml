@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="50cec7be47bd32105c68916a216d4307" label="New Feature Request" max_length="40" name="x_237156_source_0_new_feature_request" type="collection">
+        <element label="Short description" max_length="160" name="short_description" type="string"/>
+    </element>
+</database>
