@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Seeing what options are available for making JSON input easier</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>json_testing</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.arrayOfObjects}}","label":"action➛arrayOfObjects","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.Array_of_Objects}}","label":"action➛Array of Objects","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.array_of_objects}}","label":"action➛Array of Objects","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.Name}}","label":"action➛ISO Variables➛Name","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.name}}","label":"action➛ISO Variables➛Name","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.commands.type}}","label":"action➛ISO Variables➛Commands➛type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ISO_Variables}}","label":"action➛ISO Variables","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables}}","label":"action➛ISO Variables","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.Commands}}","label":"action➛ISO Variables➛Commands","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.commands}}","label":"action➛ISO Variables➛Commands","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":[],"attributes":{}},{"name":"{{action.iso_variables.commands.commands_child1}}","label":"action➛ISO Variables➛Commands➛command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.commands.asdf}}","label":"action➛ISO Variables➛Commands➛asdf","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.commands.command}}","label":"action➛ISO Variables➛Commands➛command","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"2a7fdaca-3b96-4ec6-b264-43d5a8ed66bc","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{action.iso_variables.commands.params}}","label":"action➛ISO Variables➛Commands➛params","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"24581939-fd94-44a4-a545-d64c2b507654","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master_snapshot>38fc38e747b1f6105c68916a216d433d</master_snapshot>
+        <master_snapshot_digest/>
+        <name>JSON testing</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:14:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c28c34a747b1f6105c68916a216d434b</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>JSON testing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c28c34a747b1f6105c68916a216d434b</sys_update_name>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:22:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c28c34a747b1f6105c68916a216d434b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c28c34a747b1f6105c68916a216d434b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c28c34a747b1f6105c68916a216d434b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>abecb4e747b1f6105c68916a216d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">67ecb4e747b1f6105c68916a216d43ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>c28c34a747b1f6105c68916a216d434b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>ebecb4e747b1f6105c68916a216d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">a7ecb4e747b1f6105c68916a216d43b4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_c28c34a747b1f6105c68916a216d434b^id=c28c34a747b1f6105c68916a216d434b"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=c28c34a747b1f6105c68916a216d434b^sys_idNOT INbd1dfce747b1f6105c68916a216d4306"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</action>
+        <cid>ba93bc23-d367-4d82-bc00-1572af1918a0</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:39</sys_created_on>
+        <sys_id>bd1dfce747b1f6105c68916a216d4306</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:19:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bd1dfce747b1f6105c68916a216d4306"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bd1dfce747b1f6105c68916a216d4306</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:39</sys_created_on>
+        <sys_id>3d1dfce747b1f6105c68916a216d4329</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:19:51</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    gs.info("Hello, world!");&#13;
+    gs.info("AB FLOW ACTION JSON TESTING: " + JSON.stringify(inputs.isoVariables));&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bd1dfce747b1f6105c68916a216d4306</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:39</sys_created_on>
+        <sys_id>f51dfce747b1f6105c68916a216d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:39</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bd1dfce747b1f6105c68916a216d4306"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>bd1dfce747b1f6105c68916a216d4306</id>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:39</sys_created_on>
+        <sys_id>fd1dfce747b1f6105c68916a216d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>isoVariables</field>
+        <id>bd1dfce747b1f6105c68916a216d4306</id>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:19:51</sys_created_on>
+        <sys_id>e8dd3c6b47b1f6105c68916a216d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:19:51</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bd1dfce747b1f6105c68916a216d4306</table>
+        <value>{{action.iso_variables}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>bd1dfce747b1f6105c68916a216d4306</id>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:39</sys_created_on>
+        <sys_id>351dfce747b1f6105c68916a216d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=bd1dfce747b1f6105c68916a216d4306"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd1dfce747b1f6105c68916a216d4306"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=bd1dfce747b1f6105c68916a216d4306^sys_idNOT INa4dd3c6b47b1f6105c68916a216d43bb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>isoVariables</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">bd1dfce747b1f6105c68916a216d4306</model>
+        <model_id>bd1dfce747b1f6105c68916a216d4306</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_bd1dfce747b1f6105c68916a216d4306</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:19:51</sys_created_on>
+        <sys_id>a4dd3c6b47b1f6105c68916a216d43bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:21:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=bd1dfce747b1f6105c68916a216d4306"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd1dfce747b1f6105c68916a216d4306"/>
+    <sys_hub_action_input action="delete_multiple" query="model=c28c34a747b1f6105c68916a216d434b^sys_idNOT IN57ecb4e747b1f6105c68916a216d4384"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD53ecb4a713b1f6103c285e8d5b660f2e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3b3597684775f2105c68916a216d43b5</scope_name>
+        <serialized_content>{"FlowDesigner:FD53ecb4a713b1f6103c285e8d5b660f2e":{"$COCollectionField":[{"commands":{"params":"String","params.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"params\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"command":"String","command.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"command\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"ISO Variables\",\"mandatory\":\"false\",\"child_name\":\"commands\",\"uiUniqueId\":\"97e063f6-93fc-4512-8875-8b8ffb866ddb\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD53ecb4a713b1f6103c285e8d5b660f2e\",\"child_label\":\"Commands\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"50cfeef8-56cb-4128-b737-e45aa2ca0d61\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD53ecb4a713b1f6103c285e8d5b660f2e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"ISO Variables\",\"mandatory\":\"false\",\"child_name\":\"commands\",\"uiUniqueId\":\"97e063f6-93fc-4512-8875-8b8ffb866ddb\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD53ecb4a713b1f6103c285e8d5b660f2e\",\"child_label\":\"Commands\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"50cfeef8-56cb-4128-b737-e45aa2ca0d61\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57ecb4a747b1f6105c68916a216d432e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:22:42</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Commands,child_name=commands,child_type=object,child_type_label=Object,child_uiUniqueId=50cfeef8-56cb-4128-b737-e45aa2ca0d61,co_type_name=FD53ecb4a713b1f6103c285e8d5b660f2e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=97e063f6-93fc-4512-8875-8b8ffb866ddb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>iso_variables</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ISO Variables</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</model>
+        <model_id>c28c34a747b1f6105c68916a216d434b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_c28c34a747b1f6105c68916a216d434b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>57ecb4e747b1f6105c68916a216d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=57ecb4e747b1f6105c68916a216d4384"/>
+    <sys_hub_action_output action="delete_multiple" query="model=c28c34a747b1f6105c68916a216d434b^sys_idNOT IN67ecb4e747b1f6105c68916a216d43ac,a7ecb4e747b1f6105c68916a216d43b4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=bbb74259-da02-4ea1-a8f7-899814ae9a02</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</model>
+        <model_id>c28c34a747b1f6105c68916a216d434b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c28c34a747b1f6105c68916a216d434b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>67ecb4e747b1f6105c68916a216d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=67ecb4e747b1f6105c68916a216d43ac"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=67ecb4e747b1f6105c68916a216d43ac"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=481c98e2-216c-4583-903b-916c00c46dce,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</model>
+        <model_id>c28c34a747b1f6105c68916a216d434b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_c28c34a747b1f6105c68916a216d434b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>a7ecb4e747b1f6105c68916a216d43b4</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:22:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a7ecb4e747b1f6105c68916a216d43b4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a7ecb4e747b1f6105c68916a216d43b4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c28c34a747b1f6105c68916a216d434b"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=c28c34a747b1f6105c68916a216d434b^sys_idNOT INefecb4e747b1f6105c68916a216d43c7"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</action_type_id>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>efecb4e747b1f6105c68916a216d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=efecb4e747b1f6105c68916a216d43c7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>iso_variables</element>
+        <help/>
+        <hint/>
+        <label>ISO Variables</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c28c34a747b1f6105c68916a216d434b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>63ecb4e747b1f6105c68916a216d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_c28c34a747b1f6105c68916a216d434b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c28c34a747b1f6105c68916a216d434b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>63ecb4e747b1f6105c68916a216d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_c28c34a747b1f6105c68916a216d434b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:15:57</sys_created_on>
+        <sys_id>a3ecb4e747b1f6105c68916a216d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:15:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_c28c34a747b1f6105c68916a216d434b"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=c28c34a747b1f6105c68916a216d434b^sys_idNOT IN4dfc38e747b1f6105c68916a216d438b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4dfc38e747b1f6105c68916a216d438b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>c5fc38e747b1f6105c68916a216d4368</snapshot>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4dfc38e747b1f6105c68916a216d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:04</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Seeing what options are available for making JSON input easier</description>
+        <flow_priority/>
+        <internal_name>json_testing</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.arrayOfObjects}}","label":"action➛arrayOfObjects","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.Array_of_Objects}}","label":"action➛Array of Objects","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.array_of_objects}}","label":"action➛Array of Objects","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.Name}}","label":"action➛ISO Variables➛Name","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.name}}","label":"action➛ISO Variables➛Name","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.commands.type}}","label":"action➛ISO Variables➛Commands➛type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ISO_Variables}}","label":"action➛ISO Variables","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables}}","label":"action➛ISO Variables","type":"action","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.Commands}}","label":"action➛ISO Variables➛Commands","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iso_variables.commands}}","label":"action➛ISO Variables➛Commands","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>JSON testing</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="JSON testing">c28c34a747b1f6105c68916a216d434b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38fc38e747b1f6105c68916a216d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=38fc38e747b1f6105c68916a216d433d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=38fc38e747b1f6105c68916a216d433d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>38fc38e747b1f6105c68916a216d433d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>09fc38e747b1f6105c68916a216d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">45fc38e747b1f6105c68916a216d4357</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>38fc38e747b1f6105c68916a216d433d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>4dfc38e747b1f6105c68916a216d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">81fc38e747b1f6105c68916a216d4350</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_38fc38e747b1f6105c68916a216d433d^id=38fc38e747b1f6105c68916a216d433d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=38fc38e747b1f6105c68916a216d433d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=38fc38e747b1f6105c68916a216d433d^sys_idNOT INb8fc38e747b1f6105c68916a216d4343"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD78fc38e71db1f61017da4da3d8c72e42</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3b3597684775f2105c68916a216d43b5</scope_name>
+        <serialized_content>{"FlowDesigner:FD78fc38e71db1f61017da4da3d8c72e42":{"$COCollectionField":[{"commands":{"commands_child1":"String","commands_child1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Commands_child1\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ISO Variables\",\"mandatory\":\"false\",\"child_name\":\"commands\",\"uiUniqueId\":\"97e063f6-93fc-4512-8875-8b8ffb866ddb\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD78fc38e71db1f61017da4da3d8c72e42\",\"child_label\":\"Commands\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"50cfeef8-56cb-4128-b737-e45aa2ca0d61\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD78fc38e71db1f61017da4da3d8c72e42.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"ISO Variables\",\"mandatory\":\"false\",\"child_name\":\"commands\",\"uiUniqueId\":\"97e063f6-93fc-4512-8875-8b8ffb866ddb\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD78fc38e71db1f61017da4da3d8c72e42\",\"child_label\":\"Commands\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"50cfeef8-56cb-4128-b737-e45aa2ca0d61\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cfc38e747b1f6105c68916a216d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Commands,child_name=commands,child_type=object,child_type_label=Object,child_uiUniqueId=50cfeef8-56cb-4128-b737-e45aa2ca0d61,co_type_name=FD78fc38e71db1f61017da4da3d8c72e42,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=97e063f6-93fc-4512-8875-8b8ffb866ddb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>iso_variables</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ISO Variables</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON testing">38fc38e747b1f6105c68916a216d433d</model>
+        <model_id>38fc38e747b1f6105c68916a216d433d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_38fc38e747b1f6105c68916a216d433d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>b8fc38e747b1f6105c68916a216d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8fc38e747b1f6105c68916a216d4343"/>
+    <sys_hub_action_output action="delete_multiple" query="model=38fc38e747b1f6105c68916a216d433d^sys_idNOT IN45fc38e747b1f6105c68916a216d4357,81fc38e747b1f6105c68916a216d4350"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=481c98e2-216c-4583-903b-916c00c46dce,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="JSON testing">38fc38e747b1f6105c68916a216d433d</model>
+        <model_id>38fc38e747b1f6105c68916a216d433d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_38fc38e747b1f6105c68916a216d433d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>45fc38e747b1f6105c68916a216d4357</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=45fc38e747b1f6105c68916a216d4357"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=45fc38e747b1f6105c68916a216d4357"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=bbb74259-da02-4ea1-a8f7-899814ae9a02</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON testing">38fc38e747b1f6105c68916a216d433d</model>
+        <model_id>38fc38e747b1f6105c68916a216d433d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_38fc38e747b1f6105c68916a216d433d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>81fc38e747b1f6105c68916a216d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81fc38e747b1f6105c68916a216d4350"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=81fc38e747b1f6105c68916a216d4350"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=38fc38e747b1f6105c68916a216d433d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=38fc38e747b1f6105c68916a216d433d^sys_idNOT IN81fc38e747b1f6105c68916a216d4368"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="JSON testing">38fc38e747b1f6105c68916a216d433d</action_type_id>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>81fc38e747b1f6105c68916a216d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=81fc38e747b1f6105c68916a216d4368"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>iso_variables</element>
+        <help/>
+        <hint/>
+        <label>ISO Variables</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_38fc38e747b1f6105c68916a216d433d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>74fc38e747b1f6105c68916a216d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_38fc38e747b1f6105c68916a216d433d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_38fc38e747b1f6105c68916a216d433d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>41fc38e747b1f6105c68916a216d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_38fc38e747b1f6105c68916a216d433d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>aaron.brainard</sys_created_by>
+        <sys_created_on>2025-12-19 18:16:03</sys_created_on>
+        <sys_id>cdfc38e747b1f6105c68916a216d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Source Control Management Test" source="x_237156_source_0">3b3597684775f2105c68916a216d43b5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Source Control Management Test">3b3597684775f2105c68916a216d43b5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>aaron.brainard</sys_updated_by>
+        <sys_updated_on>2025-12-19 18:16:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_38fc38e747b1f6105c68916a216d433d"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>c28c34a747b1f6105c68916a216d434b</sys_id>
+        <latest_snapshot>38fc38e747b1f6105c68916a216d433d</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch2-09-24-2025_10-12-2025_0904.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
